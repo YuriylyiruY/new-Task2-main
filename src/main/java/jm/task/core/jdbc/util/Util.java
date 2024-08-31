@@ -11,6 +11,9 @@ public class Util {
     final static String USER = "root";
     final static String PASSWORD = "12345";
 
+    private Util() {
+
+    }
 
     public static Connection getConnection() {
 

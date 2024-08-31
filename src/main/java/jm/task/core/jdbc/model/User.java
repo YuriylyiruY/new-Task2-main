@@ -62,16 +62,6 @@ public class User {
 
     @Override
     public String toString() {
-        System.out.println (" User : " + '\n' +
-                "id : " + id + '\n' +
-                " name : " + name + '\n' +
-                " lastName : " + lastName + '\n' +
-                " age : " + age);
-        return " User : " + '\n' +
-                "id : " + id + '\n' +
-                " name : " + name + '\n' +
-                " lastName : " + lastName + '\n' +
-                " age : " + age;
-
+        return " User: " + '\n' + " id: " + id + '\n' + " name: " + name + '\n' + " lastName: " + lastName + '\n' + " age: " + age;
     }
 }
